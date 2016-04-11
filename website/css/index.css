@@ -1,0 +1,117 @@
+
+@font-face {
+	font-family: 'Lane';
+	src: url('YourWebFontName.eot?') format('eot');/*IE*/
+	src: url('https://wiffinity.com/public/v2/fonts/lanenar_Lane.woff') format('woff'), url('YourWebFontName.ttf') format('truetype');/*non-IE*/
+   }
+div{
+
+}
+#topnav{
+	background-color: transparent;
+	border: none;
+}
+
+#topnav .container-fluid{
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-top: 20px;
+
+}
+#topnav .navbar-brand{
+	font-size: 24px;
+	font-family: 'PT Mono';
+	color: white;
+}
+#topnav ul li a{
+	font-size: 16px;
+	/*color: white;*/
+	color: rgba(255,255,255,0.6);
+}
+header {
+	background: url('../images/bg5.jpg') no-repeat center center / cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	padding-bottom: 60px;
+}
+/*.bg-mask{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0, rgba(0,0,0,0.6) 100%);
+}*/
+header .intro h1.slogan{
+	color: white;
+	font-family: 'Lane';
+}
+header .intro h2, header .intro h3{
+	font-family: 'Lane';
+	color: #fff;
+	margin-bottom: 30px
+}
+header .intro a.btn-default:link {
+	font-size: 16px;
+	padding: 14px 30px;
+    color: #fff;
+    background-color: transparent;
+    border-color: rgb(114, 114, 114);
+}
+header .intro a.btn-default:hover {
+	border-color: #fff;
+}
+.whats-renren {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: none;
+	margin-bottom: 30px;
+}
+.whats-renren h2{
+	margin: 0 auto;
+	font-family: 'open sans light';
+	font-weight: 300;
+	color: #fff;
+	width: 140px;
+	height: 140px;
+	background-color:  rgba(52,73,93,0.9);
+	display: block;
+	margin-bottom: 35px;
+	border-radius: 70px;
+	border:1px solid #34495D;
+} 
+.whats-renren h4{
+	font-family: 'open sans';
+	color: rgb(119, 119, 119);
+	margin-bottom: 35px;
+}
+.whats-renren a.btn-default:link {
+	font-family: 'Microsoft YaHei Light';
+	font-size: 16px;
+	padding: 14px 30px;
+
+}
+.what-we-do{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #F4F4F4;
+	margin-bottom: 30px;
+}
+.what-we-do h2{
+	font-family: 'Condiment';
+	font-size: 38px;
+	margin-bottom: 22px;
+	color: #97073E;
+}
+.what-we-do h2{
+	font-family: 'Condiment';
+	font-size: 38px;
+	margin-bottom: 22px;
+	color: #97073E;
+}
+.what-we-do i{
+	color: #34495D;
+}
+.what-we-do p{
+	font-family: 'open sans';
+	color: rgb(119, 119, 119);
+	font-size: 16px;
+	line-height: 23px;
+}

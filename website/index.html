@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>UniLife-China a big data project to let you know more about university life in China</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -13,28 +13,129 @@
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- 引入在线谷歌字体库 -->
+    <link rel='stylesheet' type='text/css'href='http://fonts.googleapis.com/css?family=Merriweather'>             
+    <link rel='stylesheet' type='text/css'href='http://fonts.googleapis.com/css?family=Open Sans'>        
+    <link rel='stylesheet' type='text/css'href='http://fonts.googleapis.com/css?family=Open Sans Light'>       
+    <link rel='stylesheet' type='text/css'href='http://fonts.googleapis.com/css?family=PT Mono'>          
+    <link rel='stylesheet' type='text/css'href='http://fonts.googleapis.com/css?family=Condiment'>
+
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
     
   </head>
   <body>
-    <h1>你好，bootstrap！</h1>
-    For example, <code>&lt;section&gt;</code> should be wrapped as inline.
-    <div>
 
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-  </ul>
+    <header>
+        <nav id="topnav" class="navbar navbar-default">
+          <div class="container-fluid" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">UniLife</a>
+            </div>
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">111</div>
-    <div role="tabpanel" class="tab-pane" id="profile">.22.</div>
-    <div role="tabpanel" class="tab-pane" id="messages">..2233333.</div>
-    <div role="tabpanel" class="tab-pane" id="settings">..4444.</div>
-  </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li> -->
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">GET STATED</a></li>
+                <li><a href="#">WHAT WE DO</a></li>
+                <li><a href="#">CAMPUS MOOD RANK</a></li>
+                <li><a href="#">TECH FACTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+          
+        </nav>
+        <div class="container intro" style="width: 70%">
+          <h1 class="text-center slogan" >
+            A Big Data project to let you know more about university life in China
+          </h1>
+          <h2 class="text-center">
+            <span style="color: #97073E">30000+</span> data
+            <span style="color: #97073E">1000+</span> schools
+          </h2>
+          <h3 class="text-center">
+            Based on China's most popular campus social network <i class="fa fa-renren fa-lg"></i> Renren.com
+          </h3>
+          <div class="text-center">
+            <a class="btn btn-default" href="#" role="button">LEARN MORE</a>
+            <a class="btn btn-default" href="#" role="button">On Github</a>
+          </div>
+          
+        </div>
+    </header>
+    <div class="whats-renren">
+      <div class="container text-center"  style="width: 60%">
+        <h2 class="text-center" >
+           <br>What is <br>Renren?
+        </h2>
+        <h4 >
+          Renren is China's most popular <span style="color: #97073E">campus social network</span>  amoung students. It's a Chinese version of Facebook.
+          Billions of data are generated each day. Here, you can check how students are talking about their campus life from different universities in their timelines. 
+        </h4>
+        <a class="btn btn-default" href="#" role="button"><i class="fa fa-renren fa-lg"></i> GO EXPLORE Renren.com</a>
+      </div>
+      
+      
+    </div>
+    
+    <div class="what-we-do ">
+        <h2 class="text-center">
+           What we do
+        </h2>
+      <div class="container text-center"  style="width: 80%">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <h3><i class="fa fa-bug fa-2x"></i></h3>
+            <h3>Web Crawling</h3>
+            <p>Make Http request in JAVA program. Imitate log in request then crawl the data in web pages implementing Apache Httpclient. </p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <h3><i class="fa fa-database fa-2x"></i></h3>
+            <h3>Big Data Store</h3>
+            <p>Collecte and insert big data crawled into database efficiently</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <h3><i class="fa fa-sort-amount-desc fa-2x"></i></h3>
+            <h3>Data Mining</h3>
+            <p>Process and analyze the big data using methods such as natural language processing to compare differences in campus-experience among universities in China</p>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <h3><i class="fa fa-pie-chart fa-2x"> </i></h3>
+            <h3>Data Visualization</h3>
+            <p>Visualize the data mining results in comprehensible way like ranks and graphs </p>
+          </div>
+        </div>
+
+      </div>
+      
+      
+    </div>
+    
 
 </div>
     
