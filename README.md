@@ -9,12 +9,15 @@ From the analyzer, it is clear what name-value pairs are sent by post method and
 After getting these information, we can imitate the log-in request to Renren. 
 
 ##Some main classes and methods of RenrenAnalyze packet
-Renren Analyze package        crawl data from Renren and data analyze
-  CrawlSearchedStatus.java        contains the configuration variables and main method of the program
-  RenrenSpider.java        make http requests, imitate log-in behavior, crawl pages
-  dbhelper.java        connect with MySQL database, insert and update data efficiently
-  RenrenStats.java        Process and analyze the big data acquired and generate statistic results
-SwingGUI package        Add Graphic User Interface to the program, make it more user friendly 
+Renren Analyze package  ——   crawl data from Renren and data analyze
+<ul>
+<li>CrawlSearchedStatus.java  ——  contains the configuration variables and main method of the program</li>
+<li>RenrenSpider.java——make http requests, imitate log-in behavior, crawl pages</li>
+<li>bhelper.java——connect with MySQL database, insert and update data efficiently</li>
+<li>RenrenStats.java——Process and analyze the big data acquired and generate statistic results</li>
+</ul>
+SwingGUI package——Add Graphic User Interface to the program, make it more user friendly   
+  
 
 ##Configuration before crawling
 variable setups for the main method
